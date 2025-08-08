@@ -195,7 +195,8 @@ Crea las rutas API necesarias.
 
 Desarrolla el frontend correspondiente (HTML + JS).
 
-Mantenimiento de la persistencia de la aplicación con UptimeRobot.
+Mantenimiento de la persistencia de la aplicación con UptimeRobot:
+
 Esta aplicación utiliza UptimeRobot, un servicio de monitoreo externo, para asegurar que siempre esté activa. Los servicios de alojamiento web gratuitos a menudo tienen una política de "apagado" que pone la aplicación en modo de suspensión o la elimina si no recibe tráfico durante un período de tiempo.
 
 UptimeRobot envía solicitudes HTTP (pings) a la URL de la aplicación cada pocos minutos. Esto simula el tráfico de un usuario, lo que evita que el servicio de alojamiento ponga la aplicación en modo de suspensión por inactividad.
@@ -203,3 +204,4 @@ UptimeRobot envía solicitudes HTTP (pings) a la URL de la aplicación cada poco
 En resumen, UptimeRobot es un "bot" que visita la aplicación constantemente para mantenerla "despierta" y garantizar la persistencia de los datos y su disponibilidad.
 
 El código está estructurado de forma modular, por lo que puedes añadir componentes sin romper lo existente.
+
